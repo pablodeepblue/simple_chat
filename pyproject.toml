@@ -1,0 +1,20 @@
+[project]
+name = "chat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pghezzi", email = "100241979+pghezzi@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=50.0.2",
+    "websockets>=17.2",
+]
+
+[project.scripts]
+chat = "chat:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
