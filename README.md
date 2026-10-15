@@ -2,6 +2,10 @@
 
 A small terminal-based chat application built with Python and WebSockets.
 
+## Client Preview
+
+![preview](chat__)
+
 ## Run locally
 
 Install the dependencies, then start the server:
